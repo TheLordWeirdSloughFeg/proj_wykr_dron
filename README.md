@@ -1,5 +1,7 @@
 # proj_wykr_dron
-Wykrywanie dronów na obrazach z kamer CCTV przy użyciu algorytmu YOLOv5
+Wykrywanie dronów na obrazach z kamer CCTV przy użyciu algorytmu YOLOv5<br>
+[link do projektu](https://colab.research.google.com/drive/10l6bnEOgIV99nO5su4MJWXQotTJ9-Mf1?usp=sharing)
+
 # Wstęp
 Firma NODRONE Co. współpracująca z miastem Stołecznym Warszawa projektuje system wykrywania dronów w obrebie stref z zakazem lotów dronami tzw. No Drone Zone.
 Firma powierzyła mi opracowanie detekcji dronów na podstawie zdjęć z kamer CCTV w obrębie wydzielonych stref No Drone Zone.
