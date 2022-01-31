@@ -28,7 +28,7 @@ Aby wytrenować model detekcji dronów potrzebne są następujące etapy:
 Serwis Roboflow umożliwia wgrywanie analizowanego zbioru danych w postaci obrazów o różnych rozszerzeniach. Załadowałem 200 zdjęć dronów, które podzieliłem na zbiór testowy treningowy i walidacyjny w następujący sposób:
 
 <p align="center">
-<img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/zbiory.jpg"/>
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/zbiory.jpg"/>
 </p>
  
 Pozdzielenie zbioru w stosunku treningowego : walidacyjnego : testowego w stosunku 7:2:1 pozwala na optymalne uczenie algorytmu.</br>
@@ -38,7 +38,7 @@ Wstępne przetwarzanie obrazu umożliwiło:
 * Dostosowanie rozmiaru obrazu do sieci neuronowej, do szybszego i skuteczniejszego uczenia sieci.
   
 <p align="center">
-<img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/Procesowanie%20wstepne.JPG" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/Procesowanie%20wstepne.jpg" />
 </p>
 Po tym kroku wstępnie przygotowałem środowisko pracy klonując repozytowium YOLOv5 ze strony [Ultralytics](https://github.com/ultralytics/yolov5), a następnie instalując potrzebne biblioteki w tym bibliotekę pyTorch.
 Załadowałem także moduły pozwalające na wyświetlanie obrazów, a także pobieranie modeli oraz danych
@@ -52,11 +52,11 @@ W ostatnim kroku przygotowane dane zostały udostępnione w formie linka. Zbiór
  
 ________________________________________
 <p align="center">
- <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/link.JPG" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/link.jpg" />
 </p>
 </br>
 <p align="center">
- <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/wybor.JPG" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/wybor.jpg" />
 </p>
 
 Wklejam wygenerowany link z moim projektem z serwisu Roboflow (plik .zip) i rozpakowuję go
@@ -64,14 +64,14 @@ Wklejam wygenerowany link z moim projektem z serwisu Roboflow (plik .zip) i rozp
 ## Opisanie konfiguracji modelu i jego architektury
 Aby model działał należy napisać skrypt w formacie YAML, który opisuje parametry modelu: warstw, klas itp. Korzystam z rekomendowanych ustawień serwisu Roboflow.
 <p align="center">
- <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/params.JPG" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/params.jpg" />
 </p>
 </br>
 ## Trenowanie modelu detekcji dronów za pomocą algorytmu YOLOv5
 
 Wytrenowałem model YOLOv5 dla 200 epok
 <p align="center">
- <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/train.JPG" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/train.jpg" />
 </p>
 </br>
 
@@ -80,24 +80,24 @@ ________________________________________
 
 Wydajność trenowania modelu można zapisać w Tensorboardzie oraz w pliku results.txt
 <p align="center">
- <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/tensorboard.JPG" />
+  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/tensorboard.JPG" />
 </p>
 
 Następnie sprawdziłem stworzone wykresy oceny wydajności oceny wydajności parametrów takich jak m.in. precyzja, dokładność 
 <p align="center">
- <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/wykresy.PNG" />
+  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/wykresy.PNG" />
 </p>
 ## Wizualizacja danych treningowych ze znacznikami
 
 Zapisałem ramkę z przykładowymi zdjęcia z oznaczeniem dronów w tzw. boxach 
 <p align="center">
- <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy.JPG" />
+  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy.JPG" />
 </p>
 
 Można również spojrzeć na oznaczenie wszystkich obrazów ze zbioru testowego
 
 <p align="center">
- <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy_test.JPG" />
+  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy_test.JPG" />
 </p>
 
 # Wnioski
