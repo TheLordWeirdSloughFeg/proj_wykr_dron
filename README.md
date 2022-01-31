@@ -5,7 +5,7 @@
 </br>
 [link do projektu w Google Collab](https://colab.research.google.com/drive/10l6bnEOgIV99nO5su4MJWXQotTJ9-Mf1?usp=sharing)</br>
 # Cel i zarys problemu
-Firma <b>NODRONE Co. </b> współpracująca z miastem Stołecznym Warszawa projektuje system wykrywania dronów w obrębie stref z zakazem lotów dronami tzw. No Drone Zone. Firma powierzyła mi opracowanie detekcji dronów na podstawie zdjęć z kamer CCTV w obrębie wydzielonych stref No Drone Zone. Celem jest detekcja dronów za pomocą odpowiednio dobranego algorytmu wykrywania obrazów, co pozwoli na rozwinięcie systemu powiadamiania służb o ewentualnych nieautoryzowanych przelotach.
+Firma <b>NODRONE Co.</b> współpracująca z miastem Stołecznym Warszawa projektuje system wykrywania dronów w obrębie stref z zakazem lotów dronami tzw. No Drone Zone. Firma powierzyła mi opracowanie detekcji dronów na podstawie zdjęć z kamer CCTV w obrębie wydzielonych stref No Drone Zone. Celem jest detekcja dronów za pomocą odpowiednio dobranego algorytmu wykrywania obrazów, co pozwoli na rozwinięcie systemu powiadamiania służb o ewentualnych nieautoryzowanych przelotach.
 ## Algorytm YOLOv5
 W mojej pracy wykorzystuję algorytm sieci neuronowej YOLOv5 do analizy obrazów. Algorytm jest udostępniony dzięki serwisowi [Roboflow]( https://roboflow.com/). YOLO ( <b>Y</b> OU<b>O</b>NLY <b>L</b> OOK <b>O</b> NCE) należący do głębokich sieci konwolucyjnych (CNN) stosuje się do wykrywania obiektów na obrazach o dużej rozdzielczości.
 W praktyce, algorytm YOLO nie tylko klasyfikuje obiekt lub obiekty widoczne na zdjęciu, ale również lokalizację konkretnego obiektu w postaci ramki. 
@@ -27,7 +27,7 @@ Aby wytrenować model detekcji dronów potrzebne są następujące etapy:
 Serwis Roboflow umożliwia wgrywanie analizowanego zbioru danych w postaci obrazów o różnych rozszerzeniach. Załadowałem 200 zdjęć dronów, które podzieliłem na zbiór testowy treningowy i walidacyjny w następujący sposób:
 
 <p align="center">
-  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/zbiory.JPG" />
+  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/zbiory.jpg" />
 </p>
  
 Pozdzielenie zbioru w stosunku treningowego : walidacyjnego : testowego w stosunku 7:2:1 pozwala na optymalne uczenie algorytmu.</br>
