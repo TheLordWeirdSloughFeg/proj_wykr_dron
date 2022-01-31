@@ -67,6 +67,7 @@ Aby model działał należy napisać skrypt w formacie YAML, który opisuje para
 </p>
 
 </br>
+
 ## Trenowanie modelu detekcji dronów za pomocą algorytmu YOLOv5
 
 Wytrenowałem model YOLOv5 dla 200 epok
