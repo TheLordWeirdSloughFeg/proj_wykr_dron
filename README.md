@@ -84,13 +84,13 @@ Wytrenowałem model YOLOv5 dla 200 epok
 Wydajność trenowania modelu można zapisać w Tensorboardzie oraz w pliku results.txt
 
 <p align="center">
-  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/tensorboard.JPG" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/tensorboard.JPG" />
 </p>
 
 Następnie sprawdziłem stworzone wykresy oceny wydajności oceny wydajności parametrów takich jak m.in. precyzja, dokładność 
 
 <p align="center">
-  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/wykresy.png" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/wykresy.png" />
 </p>
 
 ## Wizualizacja danych treningowych ze znacznikami
@@ -98,13 +98,13 @@ Następnie sprawdziłem stworzone wykresy oceny wydajności oceny wydajności pa
 Zapisałem ramkę z przykładowymi zdjęcia z oznaczeniem dronów w tzw. boxach 
 
 <p align="center">
-  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy.jpg" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy.jpg" />
 </p>
 
 Można również spojrzeć na oznaczenie wszystkich obrazów ze zbioru testowego
 
 <p align="center">
-  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy_test.jpg" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy_test.jpg" />
 </p>
 
 # Wnioski
