@@ -2,8 +2,8 @@
 <p align="center">
 <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drone%20IR.jpg"/>
 </p>
+[link do projektu w Google Collab](https://colab.research.google.com/drive/10l6bnEOgIV99nO5su4MJWXQotTJ9-Mf1?usp=sharing)
 </br>
-[link do projektu w Google Collab](https://colab.research.google.com/drive/10l6bnEOgIV99nO5su4MJWXQotTJ9-Mf1?usp=sharing)</br>
 # Cel i zarys problemu
 Firma <b>NODRONE Co.</b> współpracująca z miastem Stołecznym Warszawa projektuje system wykrywania dronów w obrębie stref z zakazem lotów dronami tzw. No Drone Zone. Firma powierzyła mi opracowanie detekcji dronów na podstawie zdjęć z kamer CCTV w obrębie wydzielonych stref No Drone Zone. Celem jest detekcja dronów za pomocą odpowiednio dobranego algorytmu wykrywania obrazów, co pozwoli na rozwinięcie systemu powiadamiania służb o ewentualnych nieautoryzowanych przelotach.
 ## Algorytm YOLOv5
