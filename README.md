@@ -77,7 +77,7 @@ Wytrenowałem model YOLOv5 dla 200 epok
 
 </br>
 
-________________________________________
+
 ## Ocena wydajności detekcji dronów algorytmem YOLOv5
 
 Wydajność trenowania modelu można zapisać w Tensorboardzie oraz w pliku results.txt
