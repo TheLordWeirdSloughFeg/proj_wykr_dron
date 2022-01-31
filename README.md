@@ -27,7 +27,7 @@ Aby wytrenować model detekcji dronów potrzebne są następujące etapy:
 Serwis Roboflow umożliwia wgrywanie analizowanego zbioru danych w postaci obrazów o różnych rozszerzeniach. Załadowałem 200 zdjęć dronów, które podzieliłem na zbiór testowy treningowy i walidacyjny w następujący sposób:
 
 <p align="center">
-  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/zbiory.jpg" />
+<img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/zbiory.jpg"/>
 </p>
  
 Pozdzielenie zbioru w stosunku treningowego : walidacyjnego : testowego w stosunku 7:2:1 pozwala na optymalne uczenie algorytmu.</br>
@@ -37,7 +37,7 @@ Wstępne przetwarzanie obrazu umożliwiło:
 * Dostosowanie rozmiaru obrazu do sieci neuronowej, do szybszego i skuteczniejszego uczenia sieci.
   
 <p align="center">
- <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/Procesowanie%20wstepne.JPG" />
+<img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/Procesowanie%20wstepne.JPG" />
 </p>
 Po tym kroku wstępnie przygotowałem środowisko pracy klonując repozytowium YOLOv5 ze strony [Ultralytics](https://github.com/ultralytics/yolov5), a następnie instalując potrzebne biblioteki w tym bibliotekę pyTorch.
 Załadowałem także moduły pozwalające na wyświetlanie obrazów, a także pobieranie modeli oraz danych
