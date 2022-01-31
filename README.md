@@ -2,6 +2,7 @@
 <p align="center">
 <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drone%20IR.jpg"/>
 </p>
+</br>
 [link do projektu w Google Collab](https://colab.research.google.com/drive/10l6bnEOgIV99nO5su4MJWXQotTJ9-Mf1?usp=sharing)
 </br>
 ## Cel i zarys problemu
