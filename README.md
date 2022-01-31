@@ -28,7 +28,7 @@ Aby wytrenować model detekcji dronów potrzebne są następujące etapy:
 Serwis Roboflow umożliwia wgrywanie analizowanego zbioru danych w postaci obrazów o różnych rozszerzeniach. Załadowałem 200 zdjęć dronów, które podzieliłem na zbiór testowy treningowy i walidacyjny w następujący sposób:
 
 <p align="center">
-  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/zbiory.jpg"/>
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/zbiory.JPG"/>
 </p>
  
 Pozdzielenie zbioru w stosunku treningowego : walidacyjnego : testowego w stosunku 7:2:1 pozwala na optymalne uczenie algorytmu.</br>
@@ -38,7 +38,7 @@ Wstępne przetwarzanie obrazu umożliwiło:
 * Dostosowanie rozmiaru obrazu do sieci neuronowej, do szybszego i skuteczniejszego uczenia sieci.
   
 <p align="center">
-  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/Procesowanie%20wstepne.jpg" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/Procesowanie%20wstepne.JPG" />
 </p>
 Po tym kroku wstępnie przygotowałem środowisko pracy klonując repozytowium YOLOv5 ze strony [Ultralytics](https://github.com/ultralytics/yolov5), a następnie instalując potrzebne biblioteki w tym bibliotekę pyTorch.
 Załadowałem także moduły pozwalające na wyświetlanie obrazów, a także pobieranie modeli oraz danych
@@ -49,7 +49,7 @@ W ostatnim kroku przygotowane dane zostały udostępnione w formie linka. Zbiór
 
 
 <p align="center">
-  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/link.jpg" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/link.JPG" />
 </p>
 </br>
 
@@ -72,7 +72,7 @@ Aby model działał należy napisać skrypt w formacie YAML, który opisuje para
 Wytrenowałem model YOLOv5 dla 200 epok
 
 <p align="center">
-  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/train.jpg" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/train.JPG" />
 </p>
 
 </br>
@@ -89,7 +89,7 @@ Wydajność trenowania modelu można zapisać w Tensorboardzie oraz w pliku resu
 Następnie sprawdziłem stworzone wykresy oceny wydajności oceny wydajności parametrów takich jak m.in. precyzja, dokładność 
 
 <p align="center">
-  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/wykresy.PNG" />
+  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/wykresy.png" />
 </p>
 
 ## Wizualizacja danych treningowych ze znacznikami
@@ -97,13 +97,13 @@ Następnie sprawdziłem stworzone wykresy oceny wydajności oceny wydajności pa
 Zapisałem ramkę z przykładowymi zdjęcia z oznaczeniem dronów w tzw. boxach 
 
 <p align="center">
-  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy.JPG" />
+  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy.jpg" />
 </p>
 
 Można również spojrzeć na oznaczenie wszystkich obrazów ze zbioru testowego
 
 <p align="center">
-  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy_test.JPG" />
+  <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy_test.jpg" />
 </p>
 
 # Wnioski
