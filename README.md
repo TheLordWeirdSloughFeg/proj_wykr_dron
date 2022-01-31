@@ -5,9 +5,9 @@
 
 [link do projektu w Google Collab](https://colab.research.google.com/drive/10l6bnEOgIV99nO5su4MJWXQotTJ9-Mf1?usp=sharing)
 
-## Cel i zarys problemu
+# Cel i zarys problemu
 Firma <b>NODRONE Co.</b> współpracująca z miastem Stołecznym Warszawa projektuje system wykrywania dronów w obrębie stref z zakazem lotów dronami tzw. No Drone Zone. Firma powierzyła mi opracowanie detekcji dronów na podstawie zdjęć z kamer CCTV w obrębie wydzielonych stref No Drone Zone. Celem jest detekcja dronów za pomocą odpowiednio dobranego algorytmu wykrywania obrazów, co pozwoli na rozwinięcie systemu powiadamiania służb o ewentualnych nieautoryzowanych przelotach.
-## Algorytm YOLOv5
+# Algorytm YOLOv5
 W mojej pracy wykorzystuję algorytm sieci neuronowej YOLOv5 do analizy obrazów. Algorytm jest udostępniony dzięki serwisowi [Roboflow]( https://roboflow.com/). YOLO (<b> Y </b> OU   <b> O </b> NLY   <b> L </b> OOK   <b> O </b> NCE) należący do głębokich sieci konwolucyjnych (CNN) stosuje się do wykrywania obiektów na obrazach o dużej rozdzielczości.
 W praktyce, algorytm YOLO nie tylko klasyfikuje obiekt lub obiekty widoczne na zdjęciu, ale również lokalizację konkretnego obiektu w postaci ramki. 
 Algorytm ten potrafi przetwarzać obraz na macierz za pomocą operacji konwolucji, a trenując model  YOLO do wykrywania danego obiektu, de facto dostosowując wagi jądra konwolucyjnego, umożliwia detekcję nawet niewielkich obiektów na zdjęciu.  
@@ -110,4 +110,3 @@ Można również spojrzeć na oznaczenie wszystkich obrazów ze zbioru testowego
 
 # Wnioski
 Algorytm YOLO w wersji 5 dobrze wykrywa drony i nadaje się do zastosowania w systemie wczesnego ostrzegania. Precyzja przy 200 epokach przekracza 0.8, a parametr recall jest dostaczenie dobry (ok. 0,65). Algorytm YOLOv5 nadaje się także do wykrywania obiektów na filmie, co można by było wykorzystać bezpośrednio w oprogramowaniu kamer na miejscu obserwacji, jednak serwis Roboflow nie udostępnia tej opcji za darmo. W dalszym kroku mojej współpracy z Firmą NODRONE Co. powinienem zaprojektować aplikację, dzięki której wykrycie drona na danej klatce obrazu z kamery CCTV, po zastosowaniu mojego modelu, może generować alert w systemie wczesnego ostrzegania lub generować wiadomości SMS do grupy pilnującej strefy bez dronów.
-
