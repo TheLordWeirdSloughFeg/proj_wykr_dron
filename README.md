@@ -40,7 +40,7 @@ Wstępne przetwarzanie obrazu umożliwiło:
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/Procesowanie%20wstepne.JPG" />
 </p>
-Po tym kroku wstępnie przygotowałem środowisko pracy klonując repozytowium YOLOv5 ze strony [Ultralytics](https://github.com/ultralytics/yolov5), a następnie instalując potrzebne biblioteki w tym bibliotekę pyTorch.
+Po tym kroku wstępnie przygotowałem środowisko pracy klonując repozytowium YOLOv5 ze strony [Ultralytics](https://github.com/ultralytics/yolov5) , a następnie instalując potrzebne biblioteki w tym bibliotekę pyTorch.
 Załadowałem także moduły pozwalające na wyświetlanie obrazów, a także pobieranie modeli oraz danych
 
 
