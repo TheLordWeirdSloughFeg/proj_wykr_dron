@@ -47,14 +47,12 @@ Załadowałem także moduły pozwalające na wyświetlanie obrazów, a także po
 ## Pobieranie danych z serwisu Roboflow
 W ostatnim kroku przygotowane dane zostały udostępnione w formie linka. Zbiór danych z Roboflow eksportuję w formacie "YOLOv5 PyTorch".
 
- 
 
- 
-________________________________________
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/link.jpg" />
 </p>
 </br>
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/wybor.jpg" />
 </p>
@@ -63,33 +61,41 @@ Wklejam wygenerowany link z moim projektem z serwisu Roboflow (plik .zip) i rozp
 
 ## Opisanie konfiguracji modelu i jego architektury
 Aby model działał należy napisać skrypt w formacie YAML, który opisuje parametry modelu: warstw, klas itp. Korzystam z rekomendowanych ustawień serwisu Roboflow.
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/params.jpg" />
 </p>
+
 </br>
 ## Trenowanie modelu detekcji dronów za pomocą algorytmu YOLOv5
 
 Wytrenowałem model YOLOv5 dla 200 epok
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/train.jpg" />
 </p>
+
 </br>
 
 ________________________________________
 ## Ocena wydajności detekcji dronów algorytmem YOLOv5
 
 Wydajność trenowania modelu można zapisać w Tensorboardzie oraz w pliku results.txt
+
 <p align="center">
   <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/tensorboard.JPG" />
 </p>
 
 Następnie sprawdziłem stworzone wykresy oceny wydajności oceny wydajności parametrów takich jak m.in. precyzja, dokładność 
+
 <p align="center">
   <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/wykresy.PNG" />
 </p>
+
 ## Wizualizacja danych treningowych ze znacznikami
 
 Zapisałem ramkę z przykładowymi zdjęcia z oznaczeniem dronów w tzw. boxach 
+
 <p align="center">
   <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drony_boxy.JPG" />
 </p>
