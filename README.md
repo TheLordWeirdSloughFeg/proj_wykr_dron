@@ -1,7 +1,5 @@
 # Wykrywanie dronów na obrazach z kamer CCTV przy użyciu algorytmu YOLOv5
-<p align="center">
- <img src=" https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drone IR.jpg" />
-</p>
+<p align="center"><img src="https://github.com/TheLordWeirdSloughFeg/proj_wykr_dron/blob/main/obrazki/drone IR.JPG"/></p>
 
 [link do projektu w Google Collab](https://colab.research.google.com/drive/10l6bnEOgIV99nO5su4MJWXQotTJ9-Mf1?usp=sharing)
 # Cel i zarys problemu
